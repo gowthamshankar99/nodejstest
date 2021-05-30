@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2_user
+    destination: /home/ec2-user
 hooks:
   AfterInstall:
     - location: install_dependency.sh
