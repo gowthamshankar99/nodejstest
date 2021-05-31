@@ -4,7 +4,7 @@ Documentation=https://example.com
 After=network.target
 
 [Service]
-Environment=NODE_PORT=3000
+#Environment=NODE_PORT=3000
 Type=simple
 User=ec2-user
 ExecStart=/usr/bin/node /home/ec2-user/app.js
